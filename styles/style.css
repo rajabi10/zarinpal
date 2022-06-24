@@ -60,7 +60,38 @@ header{
 .more-menu img{
     width: 8px;
     margin-right: 8px;
-    margin-top: -20px;
     font-size: large;
     color: #21254e
+}
+
+@media (max-width: 1200px) {
+    header{
+        width: 940px;
+    }
+}
+
+@media (max-width: 990px) {
+    header{
+        width: auto;
+        padding: 20px 60px;
+    }
+    .header-ul li:last-child{
+        display: none;
+    }
+    .logo{
+        margin: 0;
+    }
+     .header-ul li{
+        margin: 0 10px;
+     }
+}
+
+@media (max-width: 768px) {
+    .header-ul {
+        display: none;
+    }
+    header{
+        width: auto;
+        padding: 10px 8px;
+    }
 }
