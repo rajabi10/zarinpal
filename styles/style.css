@@ -61,7 +61,8 @@ header{
     width: 8px;
     margin-right: 8px;
     font-size: large;
-    color: #21254e
+    color: #21254e;
+    margin-top: -20px;
 }
 
 .hamburger-icon{
@@ -135,6 +136,10 @@ header{
     animation: fadeInDown 0.22s forwards;
 }
 
+#show-more-menu{
+    position: relative;
+}
+
 @keyframes fadeInDown {
     0%{
         opacity: 0;
@@ -145,9 +150,13 @@ header{
         transform: translateY(0);
     }
 }
+
 @media (max-width: 1200px) {
     header{
         width: 940px;
+    }
+    .more-menu img{
+        margin-top: -15px;
     }
 }
 
@@ -164,7 +173,10 @@ header{
     }
      .header-ul li{
         margin: 0 10px;
-     }
+    }
+    .more-menu img{
+        margin-top: 0;
+    }
 }
 
 @media (max-width: 768px) {
