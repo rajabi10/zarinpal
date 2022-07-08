@@ -478,6 +478,7 @@ header{
     .banner-text h3{
         font-size: 1.2rem;
         text-align: right;
+        margin-top: 20px;
     }
     .banner-text p{
         text-align: justify;
