@@ -394,6 +394,9 @@ header{
     .banner-image{
         width: 430px;
     }
+    .online-peyment{
+        width: 940px;
+    }
 }
 
 @media (max-width: 990px) {
@@ -432,6 +435,14 @@ header{
     .banner-button{
         margin-top: 40px;
     }
+    .online-peyment{
+        width: auto;
+        flex-direction:column;
+        align-items: center;
+    }
+    .section-text{
+        width: 95%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -449,6 +460,15 @@ header{
         margin-left: 8px;
         margin-right: 8px;
     }
+    .section-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .online-peyment img{
+        width: 460px;
+        height: 480px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -461,5 +481,15 @@ header{
     }
     .banner-text p{
         text-align: justify;
+    }
+    .section-image{
+        display: none;
+    }
+    .section-text{
+        width: 80%;
+        padding: 0 10px;
+    }
+    .section-text h3{
+        font-size: 1.5rem;
     }
 }
