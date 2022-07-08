@@ -279,13 +279,90 @@ header{
     width: 15px;
     position: relative;
     top: -60px;
+}
 
+.online-peyment{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.online-peyment img{
+    width: 450px;
+    height: 480px;
+}
+
+.section-text{
+    margin: 30px 0;
+    width: 530px;
+}
+
+.section-text h2{
+    color: #747480;
+    font-family: YekanBakhMedium;
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin: 20px 0 5px;
+}
+
+.section-text h3{
+    color: #303030;
+    font-family: YekanBakhHeavy;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 5px 0 10px;
+}
+
+.section-text p{
+    color: #303030;
+    font-family: YekanBakhMedium;
+    text-align: justify;
+    line-height: 40px;
+    border-bottom: 1px solid #dfe1e4;
+    padding-bottom: 20px;
+    margin-top: 16px;
+}
+
+.section-links {
+    margin-top: 40px;
+    display: flex;
+}
+
+.section-links .frist-button{
+    font-size: 0.9rem;
+    font-family: iranyekanwebmedium;
+    color: #000;
+    background-color: #ffd900;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.section-links .second-button{
+    font-size: 0.9rem;
+    font-family: iranyekanwebmedium;
+    color: #28457b;
+    background-color: rgba(232, 239, 254, 0.7);
+    padding: 6px 14px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.section-links .second-button img{
+    width: 18px;
+    height: 15px;
+    margin-right: 5px;
 }
 
 @keyframes showUp {
     0%{
         opacity: 0;
-
     }
     100%{
         opacity: 1;
