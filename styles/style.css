@@ -387,6 +387,13 @@ header{
     .more-menu img{
         margin-top: -15px;
     }
+    .banner{
+        width: 900px;
+        padding: 60px 40px 120px;
+    }
+    .banner-image{
+        width: 430px;
+    }
 }
 
 @media (max-width: 990px) {
@@ -406,6 +413,25 @@ header{
     .more-menu img{
         margin-top: 0;
     }
+    .banner{
+        width: auto;
+        padding: 40px 40px 85px;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .banner-image img{
+        display: none;
+    }
+    .banner-text{
+        text-align: center;
+    }
+    .banner-text p{
+        margin: 5px 0;
+        font-size: 1rem;
+    }
+    .banner-button{
+        margin-top: 40px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -418,5 +444,22 @@ header{
     }
     .hamburger-icon{
         display: block;
+    }
+    .banner{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+}
+
+@media (max-width: 575px) {
+    .banner{
+        padding: 80px 40px;
+    }
+    .banner-text h3{
+        font-size: 1.2rem;
+        text-align: right;
+    }
+    .banner-text p{
+        text-align: justify;
     }
 }
