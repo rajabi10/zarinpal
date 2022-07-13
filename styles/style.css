@@ -364,13 +364,19 @@ header{
 section:nth-child(5) .section-image{
     width: 408px;
     height: 266px;
-    margin: 59px 0 0;
+    margin-left: 50px;
+    margin-top: 60px;
 }
 
 section:nth-child(6) .section-image{
     width: 596px;
     height: 422px;
-    margin: 59px 0 0;
+}
+
+section:nth-child(7) .section-image{
+    width: 406px;
+    height: 422px;
+    margin-left: 50px;
 }
 
 @keyframes showUp {
@@ -485,7 +491,10 @@ section:nth-child(6) .section-image{
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    .section-image{
+    section:nth-child(6) .section-image{
+        display: none;
+    }
+    #zarin{
         display: none;
     }
 }
