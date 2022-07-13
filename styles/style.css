@@ -19,6 +19,7 @@ header{
     position: sticky;
     top: 0;
     transition: all 0.3s ease;
+    border-bottom: 1px solid #dfe1e4;
 }
 
 .logo{
@@ -368,7 +369,7 @@ section:nth-child(5) .section-image{
 
 section:nth-child(6) .section-image{
     width: 596px;
-    height: 400px;
+    height: 422px;
     margin: 59px 0 0;
 }
 
@@ -480,6 +481,12 @@ section:nth-child(6) .section-image{
     .online-peyment img{
         width: 460px;
         height: 480px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .section-image{
+        display: none;
     }
 }
 
