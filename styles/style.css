@@ -360,6 +360,18 @@ header{
     margin-right: 5px;
 }
 
+section:nth-child(5) .section-image{
+    width: 408px;
+    height: 266px;
+    margin: 59px 0 0;
+}
+
+section:nth-child(6) .section-image{
+    width: 596px;
+    height: 400px;
+    margin: 59px 0 0;
+}
+
 @keyframes showUp {
     0%{
         opacity: 0;
