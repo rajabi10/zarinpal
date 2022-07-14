@@ -601,10 +601,10 @@ section:nth-child(7) .section-image{
     }
     .items{
         width: 100%;
-        padding: 50px 0;
+        padding: 50px 30px 30px 30px;
     }
     .items .item{
-        padding: 18px 0 20px 20px;
+        padding: 30px 0 20px 20px;
     }
 }
 
@@ -639,11 +639,17 @@ section:nth-child(7) .section-image{
     .section-text h3{
         font-size: 1.5rem;
     }
+    .definition{
+        align-items: center;
+    }
     .items{
-        padding: 50px 0;
+        padding: 50px;
         grid-template-columns: 1fr;
     }
     .items .item{
         padding: 18px 0;
+    }
+    .items .item p{
+        text-align: justify;
     }
 }
