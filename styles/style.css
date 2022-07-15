@@ -533,6 +533,71 @@ section:nth-child(7) .section-image{
     margin-right: 10px;
 }
 
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin: auto;
+}
+
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: calc(100% - 330px);
+    margin-bottom: 50px;
+    padding: 0 10px;
+}
+
+.footer-links p{
+    font-size: 1.3rem;
+    font-family: YekanBakhHeavy;
+    margin-bottom: 15px;
+    color: #303030;
+}
+
+.footer-links ul{
+    list-style: none;
+}
+
+.footer-links li{
+    padding: 8px 0;
+}
+
+.footer-links a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: YekanBakhMedium;
+    color: #000;
+}
+
+.social-media{
+    width: 330px;
+    padding: 0 30px;
+    margin-bottom: 100px;
+}
+
+.social-media p{
+    font-family: YekanBakhHeavy;
+    font-size: 1.3rem;
+    color: #303030;
+}
+
+.social-media div{
+    display: flex;
+    margin-top: 20px;
+}
+
+.social-media a{
+    background-color: #eff4fe;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
 @keyframes showUp {
     0%{
         opacity: 0;
@@ -599,6 +664,9 @@ section:nth-child(7) .section-image{
     .support{
         width: 880px;
     }
+    footer{
+        width: 940px;
+    }
 }
 
 @media (max-width: 990px) {
@@ -659,6 +727,16 @@ section:nth-child(7) .section-image{
     .support-request, .support-number{
         font-size: 1.2rem;
     }
+    footer{
+        flex-direction: column;
+        width: calc(100% - 60px);
+    }
+    footer .footer-links{
+        width: 100%;
+    }
+    footer .social-media{
+        padding: 0 10px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -713,6 +791,16 @@ section:nth-child(7) .section-image{
         padding: 5px 20px;
         border-radius: 35px;
         margin-top: 20px;
+    }
+    footer{
+        width: calc(100% - 120px);
+        margin: 0 60px;
+    }
+    footer .footer-links{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    footer .footer-links div{
+        margin-top: 25px;
     }
 }
 
@@ -778,5 +866,29 @@ section:nth-child(7) .section-image{
     }
     .support-number, .support-request{
         font-size: 0.95rem;
+    }
+    footer{
+        width: calc(100% - 60px);
+        margin: 0 30px;
+    }
+    .footer-links p, .footer-links a{
+        font-size: 0.9rem;
+    }
+    .social-media a img{
+        width: 20px;
+        height: 20px;
+    }
+    .social-media a{
+        width: 35px;
+        height: 35px;
+    }
+    .social-media div{
+        justify-content: flex-end;
+        margin-top: 30px;
+    }
+    .social-media p{
+        font-size: .9rem;
+        text-align: center;
+        margin-left: -80px;
     }
 }
