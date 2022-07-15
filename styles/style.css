@@ -853,7 +853,7 @@ footer{
         align-items: center;
     }
     .items{
-        padding: 50px;
+        padding: 20px;
         grid-template-columns: 1fr;
     }
     .items .item{
