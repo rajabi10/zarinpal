@@ -9,3 +9,6 @@ Project is created with:
 - pure CSS
 - Js
 
+## Screenshots
+(./screenshot/screenshot.png)
+
