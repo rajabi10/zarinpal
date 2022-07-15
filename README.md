@@ -1,7 +1,7 @@
 # Zarinpal
 ZarinPal is a pioneer online payment gateway in Iran.
-## Redesign Zarinpal site
-Live view on gitHub pages:
+## Genetal info
+Redesign Zarinpal site and live view on GitHub pages:
 https://rajabi10.github.io/zarinpal/
 ## Technologies
 Project is created with:
