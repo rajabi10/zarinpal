@@ -853,7 +853,7 @@ footer{
         align-items: center;
     }
     .items{
-        padding: 20px;
+        padding: 10px;
         grid-template-columns: 1fr;
     }
     .items .item{
@@ -897,12 +897,11 @@ footer{
         height: 35px;
     }
     .social-media div{
-        justify-content: flex-end;
+        justify-content: center;
         margin-top: 30px;
     }
     .social-media p{
         font-size: .9rem;
         text-align: center;
-        margin-left: -80px;
     }
 }
